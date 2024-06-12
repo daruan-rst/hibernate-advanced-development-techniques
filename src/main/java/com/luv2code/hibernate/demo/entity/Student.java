@@ -22,7 +22,10 @@ public class Student {
     private String email;
 
 
-
+    @ElementCollection
+    @CollectionTable(name="image", // defaults to student_images
+            joinColumns = @JoinColumn(name="student_id"))
+    @Column(name = "file_name") // defaults to images
     private Set<String> images = new HashSet<String>();
 
     public Student(String firstName, String lastName, String email) {
@@ -63,10 +66,7 @@ public class Student {
         this.email = email;
     }
 
-    @ElementCollection
-    @CollectionTable(name="image", // defaults to student_images
-            joinColumns = @JoinColumn(name="student_id"))
-    @Column(name = "file_name") // defaults to images
+
     public Set<String> getImages() {
         return images;
     }
