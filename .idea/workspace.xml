@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b70faea6-b37b-4472-aaff-bec952cc82a4" name="Changes" comment="12. Mappings Lists - Write Some Code">
+    <list default="true" id="b70faea6-b37b-4472-aaff-bec952cc82a4" name="Changes" comment="Mappings Collections - Sets and Lists">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -134,7 +134,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718331458065</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Mappings Collections - Sets and Lists">
+      <option name="closed" value="true" />
+      <created>1718380598656</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1718380598656</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -153,7 +161,8 @@
     <MESSAGE value="8. Mapping Sets - Create our Entity class" />
     <MESSAGE value="10. Mapping Sets - Create and Run the Main App" />
     <MESSAGE value="12. Mappings Lists - Write Some Code" />
-    <option name="LAST_COMMIT_MESSAGE" value="12. Mappings Lists - Write Some Code" />
+    <MESSAGE value="Mappings Collections - Sets and Lists" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mappings Collections - Sets and Lists" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

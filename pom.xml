@@ -3,11 +3,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.luv2code</groupId>
-  <artifactId>solution-code-hibernate-hb-01-map-collections-set</artifactId>
+  <artifactId>hibernate-advanced-development-techniques</artifactId>
   <version>1.0</version>
-  <packaging>jar</packaging>
+  <packaging>pom</packaging>
 
-  <name>solution-code-hibernate-hb-01-map-collections-set</name>
+  <name>hibernate-advanced-development-techniques</name>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
