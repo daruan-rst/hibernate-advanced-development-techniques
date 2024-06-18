@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.luv2code</groupId>
-  <artifactId>solution-code-hibernate-hb-04-map-collections-sortedset</artifactId>
+  <artifactId>solution-code-hibernate-hb-04-map-collections-sorterdset</artifactId>
   <version>1.0</version>
   <packaging>jar</packaging>
 
