@@ -7,7 +7,7 @@
   <version>1.0</version>
   <packaging>jar</packaging>
 
-  <name>solution-code-hibernate-hb-01-map-collections-set</name>
+  <name>solution-code-hibernate-hb-04-map-collections-sortedset</name>
 
   <parent>
     <groupId>com.luv2code</groupId>
