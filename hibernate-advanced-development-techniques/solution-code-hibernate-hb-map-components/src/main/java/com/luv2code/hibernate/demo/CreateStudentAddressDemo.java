@@ -1,12 +1,16 @@
 package com.luv2code.hibernate.demo;
 
+import com.luv2code.hibernate.demo.entity.Address;
 import com.luv2code.hibernate.demo.entity.Student;
+import org.hibernate.HibernateException;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
+import org.hibernate.boot.cfgxml.spi.LoadedConfig;
+import org.hibernate.boot.registry.BootstrapServiceRegistry;
+import org.hibernate.boot.registry.classloading.spi.ClassLoaderService;
 import org.hibernate.cfg.Configuration;
 
-import java.util.List;
-import java.util.Set;
+import java.io.InputStream;
 
 
 public class CreateStudentAddressDemo {
@@ -17,6 +21,7 @@ public class CreateStudentAddressDemo {
         SessionFactory factory = new Configuration()
                 .configure("hibernate.cfg.xml")
                 .addAnnotatedClass(Student.class)
+                .addAnnotatedClass(Address.class)
                 .buildSessionFactory();
 
         // create session
@@ -25,23 +30,20 @@ public class CreateStudentAddressDemo {
         try {
             // create the object
             Student tempStudent = new Student("John", "Doe", "paul@luv2code.com");
-            List<String> theImages = tempStudent.getImages();
 
-            theImages.add("photo1.jpg");
-            theImages.add("photo2.jpg");
-            theImages.add("photo3.jpg");
-            theImages.add("photo4.jpg");
-            theImages.add("photo4.jpg"); // Duplicate filtered at java level by hashset
-            theImages.add("photo5.jpg");
-            theImages.add("photo5.jpg"); // Duplicate filtered at java level by hashset
+            Address homeAddress = new Address("Some Street", "Some City", "12345");
+
+
+
 
             // start a transaction
             session.beginTransaction();
 
             // save the object
-            System.out.println("Saving the student and images .. ");
+            System.out.println("Saving the student and address .. ");
+            tempStudent.setHomeAddress(homeAddress);
+            session.save(tempStudent);
 
-            session.persist(tempStudent);
             // commit the transaction
             session.getTransaction().commit();
             System.out.println("I'm done!!!");
