@@ -4,9 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b70faea6-b37b-4472-aaff-bec952cc82a4" name="Changes" comment="22. Embeddable - Create a Main Application">
+    <list default="true" id="b70faea6-b37b-4472-aaff-bec952cc82a4" name="Changes" comment="23. Embeddable - Reuse the Address and Override the Attributes">
+      <change afterPath="$PROJECT_DIR$/hibernate-advanced-development-techniques/solution-code-hibernate-hb-map-enum/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hibernate-advanced-development-techniques/solution-code-hibernate-hb-map-enum/src/main/java/com/luv2code/hibernate/demo/CreateStudentDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hibernate-advanced-development-techniques/solution-code-hibernate-hb-map-enum/src/main/java/com/luv2code/hibernate/demo/entity/Status.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hibernate-advanced-development-techniques/solution-code-hibernate-hb-map-enum/src/main/java/com/luv2code/hibernate/demo/entity/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hibernate-advanced-development-techniques/solution-code-hibernate-hb-map-enum/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hibernate-advanced-development-techniques/solution-code-hibernate-hb-map-components/src/main/java/com/luv2code/hibernate/demo/entity/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/hibernate-advanced-development-techniques/solution-code-hibernate-hb-map-components/src/main/java/com/luv2code/hibernate/demo/entity/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +28,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -45,12 +52,13 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "corretto-17",
-    "last_opened_file_path": "C:/Users/Daruan/Documents/Code/hibernate-advanced-development-techniques",
+    "last_opened_file_path": "C:/Users/Daruan/Documents/Code/hibernate-advanced-development-techniques/hibernate-advanced-development-techniques",
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Daruan\Documents\Code\hibernate-advanced-development-techniques\hibernate-advanced-development-techniques" />
       <recent name="C:\Users\Daruan\Documents\Código\hibernate-advanced-development-techniques\hibernate-advanced-development-techniques" />
       <recent name="C:\Users\Daruan\Documents\Código\hibernate-advanced-development-techniques\untitled" />
     </key>
@@ -222,7 +230,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718936038392</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="23. Embeddable - Reuse the Address and Override the Attributes">
+      <option name="closed" value="true" />
+      <created>1719018055962</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1719018055962</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -247,7 +263,8 @@
     <MESSAGE value="19. Sorted Maps - Write Some Code" />
     <MESSAGE value="21. Embeddable - Develop an Embedded Component" />
     <MESSAGE value="22. Embeddable - Create a Main Application" />
-    <option name="LAST_COMMIT_MESSAGE" value="22. Embeddable - Create a Main Application" />
+    <MESSAGE value="23. Embeddable - Reuse the Address and Override the Attributes" />
+    <option name="LAST_COMMIT_MESSAGE" value="23. Embeddable - Reuse the Address and Override the Attributes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

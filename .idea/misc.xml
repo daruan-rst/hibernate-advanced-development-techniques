@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="MavenProjectsManager">
@@ -14,6 +15,7 @@
         <option value="$PROJECT_DIR$/hibernate-advanced-development-techniques/solution-code-hibernate-hb-04-map-collections-sorterdset/pom.xml" />
         <option value="$PROJECT_DIR$/hibernate-advanced-development-techniques/solution-code-hibernate-hb-05-map-collections-sortedmap/pom.xml" />
         <option value="$PROJECT_DIR$/hibernate-advanced-development-techniques/solution-code-hibernate-hb-map-components/pom.xml" />
+        <option value="$PROJECT_DIR$/hibernate-advanced-development-techniques/solution-code-hibernate-hb-map-enum/pom.xml" />
       </list>
     </option>
   </component>
